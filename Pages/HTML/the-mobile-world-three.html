@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>The Mobile World</title>
     <link href="https://fonts.googleapis.com/css2?family=Gabriela&family=Gabarito&display=swap" rel="stylesheet" />
-    
+
     <style>
         /* Reset base styles */
         * {
@@ -40,9 +40,10 @@
             justify-content: space-between;
             padding: 0 30px;
             z-index: 10;
-          
+
         }
 
+        /* Main page picture  */
         .header-logo {
             height: 45px;
             width: 45px;
@@ -66,12 +67,13 @@
         }
 
         .header-link {
-            font-size: 20px;
+            font-size: 17px;
             cursor: pointer;
             color: #333;
             transition: color 0.3s ease;
         }
 
+        /* Hover  */
         .header-link:hover {
             color: #0077ff;
         }
@@ -136,44 +138,159 @@
             transition: all 0.3s ease;
         }
 
+        /* hover  button */
         .button-call:hover,
         .button-explore:hover {
             background-color: white;
             color: black;
         }
 
+        /* New Page */
         /* Brand Page */
         .brand-page {
             width: 100%;
-            height: 770px;
-            background-color: thistle;
+            height: 100px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: row;
+            justify-content: space-around;
+            align-content: space-around;
+
         }
 
-        /* Responsive Styles */
-        @media (max-width: 768px) {
-            .heading-01 {
-                font-size: 36px;
-                letter-spacing: 3px;
-            }
+        .log-comapany-one {
+            height: 95%;
+            width: 10%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
 
-            .heading-02 {
-                font-size: 16px;
-                letter-spacing: 1px;
-            }
+        }
 
-            .button-call,
-            .button-explore {
-                width: 140px;
-                font-size: 16px;
-            }
+        .log-comapany-two {
+            height: 95%;
+            width: 14%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-            .header-main-heading {
-                font-size: 18px;
-            }
+        .log-comapany-three {
+            height: 95%;
+            width: 14%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
 
-            .header-nav {
-                gap: 10px;
-            }
+        .log-comapany-four {
+            height: 95%;
+            width: 14%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .log-comapany-five {
+            height: 95%;
+            width: 14%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .log-comapany-six {
+            height: 95%;
+            width: 16%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .log-comapany-seven {
+            height: 95%;
+            width: 14%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        /* New page  */
+        /* offer page new sec */
+        .offer-page {
+            width: 100%;
+            height: 760px;
+            background-color: rgb(255, 255, 255);
+            display: flex;
+            flex-direction: column;
+            background: linear-gradient(to right, black, #716E6E, #D9D4D4);
+
+        }
+
+        /* page-one */
+
+        .heading-offer {
+            height: 60px;
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+        }
+
+        .heading-main {
+            height: 80%;
+            width: 250px;
+            text-align: center;
+            color: white;
+            padding-top: 5px;
+            border-radius: 25px;
+            font-size: 30px;
+            background: linear-gradient(to right, black, #716E6E, #D9D4D4);
+        }
+
+        /* page-two */
+        .main-offer {
+            width: 100%;
+            height: 700px;
+            display: flex;
+            flex-direction: row;
+            justify-content: space-evenly;
+            align-items: center;
+        }
+
+        .offer-page-1 {
+            width: 30%;
+            height: 90%;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            background-image: url(../../assets/image/generated-image\ \(1\).png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .offer-page-2 {
+            width: 30%;
+            height: 90%;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            background-image: url(../../assets/image/generated-image\ \(8\).png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
+        }
+
+        .offer-page-3 {
+            width: 30%;
+            height: 90%;
+            border-radius: 5px;
+            background-color: rgb(255, 255, 255);
+            background-image: url(../../assets/image/generated-image\ \(4\).png);
+            background-repeat: no-repeat;
+            background-position: center;
+            background-size: contain;
         }
     </style>
 </head>
@@ -206,8 +323,42 @@
         </section>
 
         <!-- Placeholder for other pages -->
-        <div class="brand-page"></div>
-        <div class="offer-page"></div>
+        <div class="brand-page">
+            <div class="log-comapany-one"><img style="height: 140px;width: 200px;"
+                    src="https://pngimg.com/d/apple_logo_PNG19688.png" alt=""></div>
+            <div class="log-comapany-two"><img style="height: 150px;width: 200px;"
+                    src="https://download.logo.wine/logo/Samsung_Electronics/Samsung_Electronics-Logo.wine.png" alt="">
+            </div>
+            <div class="log-comapany-three">
+                <img style="height: 160px;width: 200px;"
+                    src="https://static.vecteezy.com/system/resources/previews/068/894/423/non_2x/google-pixel-logo-horizontal-icon-transparent-background-free-png.png"
+                    alt="">
+            </div>
+            <div class="log-comapany-four"><img style="height: 150px;width: 200px;"
+                    src="https://brandlogos.net/wp-content/uploads/2022/06/vivo_communication_technology-logo_brandlogos.net_djbkc.png"
+                    alt=""></div>
+            <div class="log-comapany-five"><img style="height: 160px;width: 200px;"
+                    src="https://static.cdnlogo.com/logos/o/57/oppo.png" alt=""></div>
+            <div class="log-comapany-six"><img style="height: 160px;width: 200px;"
+                    src="https://i.pinimg.com/originals/6c/c4/9f/6cc49fbe30e2cdac15544439a8ca1643.png" alt=""></div>
+            <div class="log-comapany-seven"><img style="height: 160px;width: 200px;"
+                    src="https://brandlogos.net/wp-content/uploads/2022/05/iqoo-logo_brandlogos.net_slseg.png" alt="">
+            </div>
+
+
+        </div>
+        <!-- new section for offer pagee -->
+        <div class="offer-page">
+            <div class="heading-offer">
+                <div class="heading-main">Best Deal For You</div>
+            </div>
+            <div class="main-offer">
+                <div class="offer-page-1"></div>
+                <div class="offer-page-2"></div>
+                <div class="offer-page-3"></div>
+
+            </div>
+        </div>
         <div class="product-page"></div>
     </div>
 </body>
