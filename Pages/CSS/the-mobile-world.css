@@ -4,7 +4,8 @@
         padding: 0;
         box-sizing: border-box;
     }
-    a{
+
+    a {
         text-decoration: none;
         color: #333;
     }
@@ -644,8 +645,12 @@
     }
 
     /* Hover  */
-    .header-link:hover {
-        color: #0077ff;
+    .header-link:hover,
+    a:hover {
+        color: rgb(255, 252, 252);
+        background-color: rgb(165, 165, 165);
+
+
     }
 
     /* second page */
@@ -836,7 +841,7 @@
         border-radius: 10px;
         box-shadow: 5px 5px 10px 10px rgba(105, 105, 105, 0.86);
         background: linear-gradient(to right, black, #716E6E, #D9D4D4);
-        background-image: url(../../assets/image/image.png);
+        background-image: url(../../assets/image/Screenshot\ 2025-09-21\ at\ 16.09.27.png);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -860,7 +865,7 @@
         border-radius: 10px;
         box-shadow: 5px 5px 10px 10px rgba(105, 105, 105, 0.86);
         background: linear-gradient(to right, black, #716E6E, #D9D4D4);
-        background-image: url(../../assets/image/generated-image\ \(8\).png);
+        background-image: url(../../assets/image/Media\ copy.jpeg);
         background-repeat: no-repeat;
         background-position: center;
         background-size: cover;
@@ -979,6 +984,10 @@
         width: 30%;
         background-color: white;
         border-radius: 12px;
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr;
+
     }
 
     .class-product-02 {
@@ -986,6 +995,9 @@
         width: 30%;
         background-color: white;
         border-radius: 12px;
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .class-product-03 {
@@ -993,6 +1005,44 @@
         width: 30%;
         background-color: white;
         border-radius: 12px;
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr;
+    }
+
+    /* photo of the product class -001*/
+    /* class-01 */
+    .product-page-photo-001 {
+
+        padding-left: 56px;
+
+    }
+
+    .detail-of-product-001 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* class-02 */
+    .product-page-photo-002 {
+
+        padding-left: 56px;
+    }
+
+    .detail-of-product-002 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* class-03 */
+    .product-page-photo-003 {
+
+        padding-left: 56px;
+    }
+
+    .detail-of-product-003 {
+        font-size: 20px;
+        text-align: center;
     }
 
     /* class-new -one */
@@ -1011,6 +1061,9 @@
         width: 30%;
         background-color: white;
         border-radius: 12px;
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .class-product-12 {
@@ -1018,6 +1071,9 @@
         width: 30%;
         background-color: white;
         border-radius: 12px;
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr;
     }
 
     .class-product-13 {
@@ -1025,7 +1081,43 @@
         width: 30%;
         border-radius: 12px;
         background-color: white;
+        display: grid;
+        grid-template-rows: 2fr 1fr;
+        grid-template-columns: 1fr;
     }
+
+    /* photo of the product class-002 */
+    /* class-04 */
+    .product-page-photo-004 {
+
+        padding-left: 56px;
+    }
+
+    .detail-of-product-004 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* class-05 */
+    .product-page-photo-005 {
+        padding-left: 56px;
+    }
+
+    .detail-of-product-005 {
+        font-size: 20px;
+        text-align: center;
+    }
+
+    /* class-06 */
+    .product-page-photo-006 {
+        padding-left: 56px;
+    }
+
+    .detail-of-product-006 {
+        font-size: 20px;
+        text-align: center;
+    }
+
 
     /* New Page  */
     /* service-center-page */
@@ -1322,6 +1414,10 @@
         background: linear-gradient(to top, rgb(32, 32, 32), rgb(117, 117, 117), rgb(172, 172, 172));
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.682) 0px 6px 6px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
+
     }
 
     .class-02-page {
@@ -1330,6 +1426,9 @@
         background: linear-gradient(to top, rgb(32, 32, 32), rgb(117, 117, 117), rgb(172, 172, 172));
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.682) 0px 6px 6px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
     }
 
     .class-03-page {
@@ -1338,6 +1437,9 @@
         background: linear-gradient(to top, rgb(32, 32, 32), rgb(117, 117, 117), rgb(172, 172, 172));
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.682) 0px 6px 6px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
     }
 
     .class-04-page {
@@ -1346,13 +1448,104 @@
         background: linear-gradient(to top, rgb(32, 32, 32), rgb(117, 117, 117), rgb(172, 172, 172));
         border-radius: 15px;
         box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.682) 0px 6px 6px;
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 2fr 1fr;
     }
+
+    .class-01-page:hover,
+    .class-02-page:hover,
+    .class-03-page:hover,
+    .class-04-page:hover {
+        transform: scale(1.04);
+        transition: transform 0.4s ease;
+        box-shadow: rgba(244, 244, 244, 0.476) 0px 10px 20px, rgba(0, 0, 0, 0.682) 0px 6px 6px;
+    }
+
+    /* Photo of jio phone */
+    .photo-of-jio-sellimg-product-01 {
+        height: 250px;
+        width: 220px;
+        background-color: #000000;
+        margin-top: 30px;
+        background-image: url(https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/ghWjg6EzfV-jiobharat-b2-581107385-i-1-1200wx1200h.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        margin-left: 45px;
+    }
+
+    .name-of-jio-phone-001 {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .photo-of-jio-sellimg-product-02 {
+        height: 250px;
+        width: 220px;
+        background-color: #000000;
+        margin-top: 30px;
+        background-image: url(https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/3mA7cHfrQw-jiobharat-j1-581107398-i-1-1200wx1200h.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        margin-left: 45px;
+    }
+
+    .name-of-jio-phone-002 {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .photo-of-jio-sellimg-product-03 {
+        height: 250px;
+        width: 220px;
+        background-color: #000000;
+        margin-top: 30px;
+        background-image: url(https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/fQQSgcjWNu-jiobharatbharat-v3-581107375-i-1-1200wx1200h.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        margin-left: 45px;
+    }
+
+    .name-of-jio-phone-003 {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
+    .photo-of-jio-sellimg-product-04 {
+        height: 250px;
+        width: 220px;
+        background-color: #000000;
+        margin-top: 30px;
+        background-image: url(https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/BTK8QZ140j-jiobharatbharat-v4-581107376-i-1-1200wx1200h.jpeg);
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        border-radius: 15px;
+        margin-left: 45px;
+    }
+
+    .name-of-jio-phone-004 {
+        font-size: 20px;
+        text-align: center;
+        color: white;
+    }
+
 
     /* New Page */
     /* Shop by Price */
     .shop-by-price {
         width: 100%;
         height: 380px;
+        background: linear-gradient(to right, rgb(233, 233, 233), rgba(150, 150, 150, 0.673), rgba(62, 62, 62, 0.372));
     }
 
     /* new  class */
@@ -1361,6 +1554,7 @@
         width: 100%;
         display: flex;
         flex-direction: column;
+
 
     }
 
@@ -1389,6 +1583,7 @@
         flex-direction: row;
         justify-content: space-evenly;
         align-items: center;
+
     }
 
     /* box off that container */
@@ -1434,13 +1629,56 @@
     .class-offer-004:hover {
         transform: scale(1.05);
         transition: transform 0.5s ease;
-      
+
     }
 
     /* New page */
     /* Contact Section Page */
     .contact-section-page {
         width: 100%;
-        height: 700px;
+        height: 600px;
 
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* class-001 of contact section */
+    .contact-heading {
+        width: 100%;
+        height: 80px;
+        display: flex;
+        flex-direction: column;
+        background-color: #333;
+    }
+
+    .heading-name-contact {
+        height: 90%;
+        width: 100%;
+        font-size: 30px;
+        padding-left: 35px;
+        padding-top: 20px;
+        color: white;
+    }
+
+    .line-of-heading-contact {
+        height: 2px;
+        width: 95%;
+        background-color: rgb(255, 255, 255);
+        margin-bottom: 15px;
+        margin-left: 30px;
+        color: white;
+    }
+
+    /* Class -002 of Contact Section */
+
+    .main-section-of-contact {
+        width: 100%;
+        height: 520px;
+        background-color: #333;
+    }
+
+    /* New Page of Footer */
+    .footer-page {
+        width: 100%;
+        height: 500px;
     }
