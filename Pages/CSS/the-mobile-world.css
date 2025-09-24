@@ -60,6 +60,7 @@
     }
 
     @media (max-width: 768px) {
+
         /* combine all styles here */
         .class-01-page,
         .class-02-page,
@@ -67,7 +68,7 @@
         .class-04-page {
             width: 90%;
         }
-    
+
         .photo-of-jio-sellimg-product-01,
         .photo-of-jio-sellimg-product-02,
         .photo-of-jio-sellimg-product-03,
@@ -75,7 +76,7 @@
             width: 100%;
             height: auto;
         }
-    
+
         .class-of-service-01,
         .class-of-service-02,
         .class-of-service-03,
@@ -84,19 +85,19 @@
         .class-of-service-13 {
             width: 90%;
         }
-    
+
         .heading-one {
             font-size: 24px;
             padding-left: 20px;
             padding-top: 15px;
         }
-    
+
         .photo-of-offer {
             flex-direction: column;
             align-items: center;
             gap: 20px;
         }
-    
+
         .class-offer-001,
         .class-offer-002,
         .class-offer-003,
@@ -104,7 +105,7 @@
             width: 90%;
             height: 200px;
         }
-    
+
         .container-of-main {
             grid-template-columns: 1fr;
             grid-template-rows: auto;
@@ -112,7 +113,7 @@
             height: auto;
             padding: 20px 0;
         }
-    
+
         .email-page,
         .contact-page,
         .phone-page {
@@ -121,8 +122,8 @@
             font-size: 18px;
         }
     }
-    
-    @media (min-width: 100px) and (max-width: 300px) {
+
+    @media (min-width: 300px) and (max-width: 600px) {
 
         body,
         html {
@@ -1667,7 +1668,7 @@
     /* Contact Section Page */
     .contact-section-page {
         width: 100%;
-        height: 600px;
+        height: 550px;
 
         display: flex;
         flex-direction: column;
@@ -1705,7 +1706,7 @@
 
     .main-section-of-contact {
         width: 100%;
-        height: 520px;
+        height: 470px;
         background: linear-gradient(to right, #313131, #515151, #807E7D, #A19B9B);
         display: flex;
         flex-direction: column;
@@ -1714,54 +1715,115 @@
 
     .container-of-main {
         width: 90%;
-        height: 250px;
+        height: 220px;
         background: linear-gradient(to right, #a19b9b8f, #807e7d82, #5151516f, #3131316d);
         border-radius: 50px;
         display: grid;
-        grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+        grid-template-columns: 1fr 1fr 1fr;
         grid-template-rows: 1fr 1fr;
     }
 
     /* new-page in container  */
     .email-page {
-        padding-left: 175px;
         padding-top: 30px;
         font-size: 20px;
         color: white;
+        padding-left: 180px;
 
     }
 
     .contact-page {
-        padding-left: 200px;
         padding-top: 30px;
+        padding-left: 180px;
         font-size: 20px;
         color: white;
-
     }
 
     .phone-page {
-        padding-left: 190px;
         padding-top: 30px;
+        padding-left: 180px;
         font-size: 20px;
         color: white;
-
     }
 
-    /* new section in contact page */
+    .pranay {
+        padding-top: 10px;
+        font-size: 20px;
+        color: white;
+        padding-left: 100px;
+    }
+
     .pranay-01 {
-        background-color: #00aaff;
+        padding-top: 10px;
+        font-size: 20px;
+        color: white;
+        padding-left: 100px;
     }
 
-    .email-01 {
-        background-color: yellow;
+    .pranay-02 {
+        padding-top: 10px;
+        font-size: 20px;
+        color: white;
+        text-align: center;
     }
 
-    .contact-01 {
-        background-color: yellow;
+    /* second-class-contact-section  */
+    .contact-page-two {
+        width: 100%;
+        height: 250px;
+        display: flex;
+        flex-direction: row;
     }
 
-    .address-01 {
-        background-color: yellow;
+    .page-01 {
+        height: 100%;
+        width: 50%;
+        display: grid;
+        grid-template-rows: 1fr 1fr;
+    }
+
+    /* part-01  */
+    .part-01 {
+        color: white;
+        display: grid;
+        grid-template-columns: 0.4fr 1fr;
+
+    }
+
+    .part-05 {
+        font-size: 22px;
+        padding-top: 45px;
+    }
+
+    /* part-2  */
+    .part-02 {
+
+        color: white;
+        display: grid;
+        grid-template-columns: 0.4fr 1fr;
+
+    }
+
+    .part-09 {
+        padding-top: 7px;
+        font-size: 22px;
+
+    }
+
+    /* second-02 option  */
+
+    .page-02 {
+        height: 100%;
+        width: 50%;
+
+    }
+
+    .iframe-tag {
+        height: 240px;
+        width: 500px;
+        margin-top: 3px;
+        border-radius: 20px;
+        margin-left: 60px;
     }
 
     /* New Page */
@@ -1770,4 +1832,146 @@
     .footer-page {
         width: 100%;
         height: 500px;
+        background-color: #000000;
+        display: flex;
+        flex-direction: row;
+        justify-content: space-around;
+    }
+
+    /* page-01 new class */
+
+    .PAGES-01 {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .firrst-part-of-project {
+        height: 30%;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .Second-part-of-project {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 25px;
+        color: white;
+        font-size: 15px;
+
+    }
+
+    /* page-02 new class */
+    .PAGES-02 {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .first-page-001 {
+        height: 30%;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .Second-page-001 {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 25px;
+        color: white;
+        font-size: 15px;
+    }
+
+    /* page-03 new class*/
+    .PAGES-03 {
+        height: 100%;
+        width: 30%;
+        display: flex;
+        flex-direction: column;
+
+
+    }
+
+    .first-page-012 {
+        height: 30%;
+        width: 100%;
+        text-align: center;
+        font-size: 25px;
+        color: white;
+        padding-top: 30px;
+    }
+
+    .Second-page-015 {
+        height: 70%;
+        width: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        gap: 25px;
+        color: white;
+        font-size: 15px;
+    }
+
+    .image-of-social-media {
+        height: 50px;
+        width: 100%;
+        color: rgb(255, 255, 255);
+        display: flex;
+        flex-direction: row;
+        gap: 30px;
+        font-size: 17px;
+        text-align: center;
+
+
+    }
+
+    /* Last */
+    .last-page-end {
+        height: 40px;
+        width: 100%;
+        display: flex;
+        flex-direction: row;
+    }
+
+    .last-one {
+        width: 33%;
+        font-size: 15px;
+        color: #000000;
+        letter-spacing: 2px;
+        padding-top: 8px;
+        padding-left: 20px;
+    }
+
+    .last-two {
+        width: 33%;
+        font-size: 15px;
+        color: #000000;
+        letter-spacing: 2px;
+        padding-left: 220px;
+        padding-top: 8px;
+    }
+
+    .last-three {
+        padding-left: 200px;
+        padding-top: 5px;
+        width: 33%;
     }
