@@ -4,235 +4,84 @@
         padding: 0;
         box-sizing: border-box;
     }
-    @media (max-width: 575px) {
 
-        /* Product Cards */
-        .product-card {
-            width: 90%;
-            height: auto;
-            margin: 10px auto;
+    @media (max-width: 600px) {
+        .main-container {
+            height: 100vh;
+            width: 100vw;
         }
-    
-        .product-photo {
-            width: 100%;
-            height: 200px;
-            margin-left: 0;
-        }
-    
-        .name-of-jio-phone-001,
-        .name-of-jio-phone-002,
-        .name-of-jio-phone-003,
-        .name-of-jio-phone-004 {
-            font-size: 16px;
-        }
-    
-        /* Offer Section */
-        .photo-of-offer {
-            flex-direction: column;
-            height: auto;
-            gap: 20px;
-        }
-    
-        .offer-card {
-            width: 90%;
-            height: 200px;
-        }
-    
-        /* Contact Section */
-        .container-of-main {
-            grid-template-columns: 1fr;
-            grid-template-rows: auto;
-            height: auto;
-            border-radius: 20px;
-        }
-    
-        .email-page,
-        .contact-page,
-        .phone-page,
-        .pranay,
-        .pranay-01,
-        .pranay-02 {
-            padding-left: 20px;
-            font-size: 16px;
-        }
-    
-        .contact-page-two {
-            flex-direction: column;
-            height: auto;
-        }
-    
-        .page-01,
-        .page-02 {
-            width: 100%;
-        }
-    
-        .iframe-tag {
-            width: 90%;
-            height: 200px;
-            margin: 20px auto;
-        }
-    
-        /* Footer */
-        .footer-page {
-            flex-direction: column;
-            height: auto;
-            gap: 20px;
-        }
-    
-        .PAGES-01,
-        .PAGES-02,
-        .PAGES-03 {
-            width: 100%;
-            align-items: center;
-        }
-    
-        .last-page-end {
-            flex-direction: column;
-            height: auto;
-            text-align: center;
-            gap: 10px;
-        }
-    
-        .last-one,
-        .last-two,
-        .last-three {
-            width: 100%;
-            padding-left: 0;
-        }
-    }
-    @media (max-width: 767px) {
 
-        .product-card {
-            width: 100%;
-            height: auto;
-            margin-bottom: 20px;
+        .header {
+        
+            width: 50%;
+            display: flex;
+            
+
         }
-    
-        .photo-of-offer {
-            flex-direction: column;
-            height: auto;
+
+        .header-logo {
+            width: 25px;
+            height: 25px;
+            border-radius: 50%;
+            background-color: black;
         }
-    
-        .offer-card {
-            width: 90%;
-            height: 220px;
+
+        .header-main-heading {
+            font-size: 15px;
+            color: black;
         }
-    
-        .container-of-main {
-            grid-template-columns: 1fr;
-            height: auto;
+
+        .header-link {
+            font-size: 10px;
+            color: black;
         }
-    
-        .contact-page-two {
-            flex-direction: column;
+
+        .main-page {
+            width: 100vw;
+
         }
-    
-        .page-01,
-        .page-02 {
-            width: 100%;
+
+        .main-content {
+            height: 100vw;
+            width: 100vh;
+
         }
-    
-        .iframe-tag {
-            width: 90%;
-            height: 200px;
-            margin: 10px auto;
+
+        .heading-01 {
+            font-size: 40px;
+            letter-spacing: 4px;
+
         }
-    
-        .footer-page {
-            flex-direction: column;
-            gap: 20px;
-            height: auto;
+
+        .heading-02 {
+            font-size: 10px;
+            letter-spacing: 1px;
         }
-    
-        .PAGES-01,
-        .PAGES-02,
-        .PAGES-03 {
-            width: 100%;
-            align-items: center;
-        }
-    }
-    @media (max-width: 991px) {
-        .product-card {
-            width: 45%;
-            margin-bottom: 20px;
-        }
-    
-        .photo-of-offer {
-            flex-wrap: wrap;
-            justify-content: center;
-        }
-    
-        .offer-card {
-            width: 45%;
-            height: 250px;
-            margin: 10px;
-        }
-    
-        .container-of-main {
-            grid-template-columns: 1fr 1fr;
-            height: auto;
-            row-gap: 20px;
-        }
-    
-        .contact-page-two {
+
+        .button-group {
+            display: flex;
             flex-direction: column;
         }
-    
-        .page-01,
-        .page-02 {
-            width: 100%;
-        }
-    
-        .iframe-tag {
-            width: 90%;
-            height: 250px;
-            margin: auto;
-        }
-    
-        .footer-page {
-            flex-direction: column;
-            gap: 20px;
-            height: auto;
-        }
-    
-        .PAGES-01,
-        .PAGES-02,
-        .PAGES-03 {
-            width: 100%;
-            align-items: center;
-        }
-    
-        .last-page-end {
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .last-one,
-        .last-two,
-        .last-three {
-            width: 100%;
-            text-align: center;
-            padding-left: 0;
-        }
-    }
-    @media (max-width: 1199px) {
-        .product-card {
-            width: 30%;
-        }
-    
-        .offer-card {
-            width: 40%;
-        }
-    
-        .container-of-main {
-            grid-template-columns: 1fr 1fr;
-        }
-    
-        .iframe-tag {
-            width: 90%;
-        }
-    }
+        .button-call,
+        .button-explore {
+            height: 30px;
+            width: 30px;
      
+            font-size: 12px;
+        }
+        .brand-page{
+            height: 100vh;
+            width: 100vh;
+            display: flex;
+            flex-direction: column;
+        }
+        .log-comapany-one, .log-comapany-two,   .log-comapany-three ,.log-comapany-four,  .log-comapany-five, .log-comapany-six,  .log-comapany-seven    {
+            height: 35%;
+            width: 35%;
+            display: flex;
+
+        }
+    }
 
     a {
         text-decoration: none;
@@ -246,11 +95,11 @@
         font-family: "Gabarito", sans-serif;
         overflow-x: hidden;
         scroll-behavior: smooth;
-        scrollbar-width: 30px;
+        scrollbar-width: 50px;
     }
 
     .main-container {
-        width: 100%;
+        width: 100vw;
     }
 
 
@@ -265,7 +114,7 @@
         display: flex;
         align-items: center;
         justify-content: space-between;
-        padding: 0 30px;
+        padding: 30px;
         z-index: 10;
 
     }
@@ -297,7 +146,7 @@
         font-size: 17px;
         cursor: pointer;
         color: #333;
-        transition: color 0.3s ease;
+
     }
 
     /* Hover  */
