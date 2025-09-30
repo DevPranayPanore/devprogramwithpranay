@@ -5,7 +5,17 @@
         box-sizing: border-box;
     }
 
+    @media  (max-width: 600px) {
+        .header {
+         
+            background-color: red;
 
+        }
+        .main-offer {
+            flex-direction: column;
+        }
+
+    }
 
     a {
         text-decoration: none;
@@ -827,7 +837,7 @@
 
     /* Photo of jio phone */
     .photo-of-jio-sellimg-product-01 {
-        height: 18vw ;
+        height: 18vw;
         width: 16vw;
         background-color: #000000;
         background-image: url(https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/ghWjg6EzfV-jiobharat-b2-581107385-i-1-1200wx1200h.jpeg);
@@ -837,7 +847,7 @@
         border-radius: 15px;
         margin-left: 3vw;
         margin-top: 1vw;
-      text-align: center;
+        text-align: center;
     }
 
     .name-of-jio-phone-001 {
@@ -847,7 +857,7 @@
     }
 
     .photo-of-jio-sellimg-product-02 {
-        height: 18vw ;
+        height: 18vw;
         width: 16vw;
         background-color: #000000;
         background-image: url(https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/3mA7cHfrQw-jiobharat-j1-581107398-i-1-1200wx1200h.jpeg);
@@ -866,7 +876,7 @@
     }
 
     .photo-of-jio-sellimg-product-03 {
-        height: 18vw ;
+        height: 18vw;
         width: 16vw;
         background-color: #000000;
         background-image: url(https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:250/fQQSgcjWNu-jiobharatbharat-v3-581107375-i-1-1200wx1200h.jpeg);
@@ -885,7 +895,7 @@
     }
 
     .photo-of-jio-sellimg-product-04 {
-        height: 18vw ;
+        height: 18vw;
         width: 16vw;
         background-color: #000000;
         background-image: url(https://cdn.jiostore.online/v2/jmd-asp/jdprod/wrkr/products/pictures/item/free/resize-w:150/BTK8QZ140j-jiobharatbharat-v4-581107376-i-1-1200wx1200h.jpeg);
@@ -1123,7 +1133,7 @@
     }
 
     .part-05 {
-        font-size:1.4vw;
+        font-size: 1.4vw;
         padding-top: 2.8vw;
     }
 
