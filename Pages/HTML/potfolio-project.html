@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portfolio</title>
+    <style>
+        body {
+            height: auto;
+            width: 100vw;
+            padding: 0;
+            margin: 0;
+            overflow-x: hidden;
+        }
+
+        .main-container {
+            width: 100vw;
+            height: auto;
+            background-color: black;
+        }
+
+        /* New Class First */
+        /* header-name */
+        .Header {
+            height: 100vh;
+            width: 20vw;
+            background-color: rgb(57, 57, 57);
+            display: flex;
+            flex-direction: column;
+
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .portfolio-name {
+            width: 60%;
+            font-size: 2.6vw;
+            color: bisque;
+            padding-left: 100px;
+        }
+
+        .nav-class {
+            width: 40%;
+            height: 100%;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 3.3vw;
+
+
+        }
+
+        .header-link {
+            color: rgb(255, 255, 255);
+            font-size: 1.55vw;
+
+        }
+    </style>
+</head>
+
+<body>
+    <div class="main-container">
+        <!-- Header page  -->
+         <!-- New Page  -->
+        <header class="Header">
+            <div class="portfolio-name">Portfolio</div>
+            <section class="nav-class">
+                <a href="#Home"><span class="header-link">Home</span></a>
+                <a href="#Products"> <span class="header-link">Project</span>
+                    <a href="#About"> <span class="header-link">About</span></a>
+                    <a href="#Contact"> <span class="header-link">Contact</span></a>
+            </section>
+        </header>
+
+    </div>
+
+
+</body>
+
+</html>
